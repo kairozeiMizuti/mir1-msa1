@@ -1,0 +1,8 @@
+プロジェクト名：mir1-msa1
+概要:独自中間言語であるmir1を独自ISA言語であるmsa1に変換するプロジェクトです
+使用言語:Python 3.12.10
+
+使い方・動かし方
+mir1で書いた動かしたいプログラムをmir1Code.csvとして保存し、msa1Compiler2.pyと同じフォルダに入れます
+msa1Compiler2.pyを動かすと、mir1Code.csvを読み取って16進数のmsa1に変換し、program.csvが出力されます
+mir1の書き方はmir1の書き方.pdfを見てください
